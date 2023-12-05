@@ -1,7 +1,5 @@
 /*begin-variables font-family*/
 
-
-
 .u-body {
     font-family: 'Open Sans',sans-serif;
   }
@@ -3331,7 +3329,8 @@
   .u-container-layout.u-container-layout.u-palette-2-base:before,
   .u-table-alt-palette-2-base tr:nth-child(even) {
     color: #ffffff;
-    background-color: #280042;
+    /* background-color: #280042; */
+    background-color:#1B60A4;
   }
   .u-input.u-palette-2-base,
   .u-field-input.u-palette-2-base,
@@ -16740,6 +16739,7 @@
   
     .u-section-1 .u-group-1 {
       margin-left: calc(((100% - 940px) / 2) + -12px);
+      
       height: auto;
     }
   }

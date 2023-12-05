@@ -4,9 +4,34 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+ 
+.novadiv{
+  margin-left: 50px;
+  font-family:  'Open Sans',sans-serif ;
+}
+
+
+ .note{
+  display: block; 
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+ .lista{
+  font-family:  'Open Sans',sans-serif ;
+ 
+ }
+
+  .novaclasse{
+    float: left; 
+    margin-left: 2px; 
+    margin-right: 23px;
+  }
+
  .u-new-custom-class {
   display: inline-block;
-  padding: 10px ; /* 20px para cima/baixo, 10px para esquerda/direita */
+  padding: 10px ; 
   background-color: orangered;
   text-decoration: none;
   border-radius: 50px;
@@ -17783,7 +17808,7 @@
   .u-word-break {
     word-break: break-all;
   }
-  .u-font-arial.u-custom-font {
+  /* .u-font-arial.u-custom-font {
     font-family: Arial, sans-serif !important;
   }
   .u-font-courier-new.u-custom-font {
@@ -17830,13 +17855,13 @@
   }
   .u-font-roboto-slab.u-custom-font {
     font-family: 'Roboto Slab', serif !important;
-  }
-  .u-font-playfair-display.u-custom-font {
+  } */
+  /* .u-font-playfair-display.u-custom-font {
     font-family: 'Playfair Display', serif !important;
-  }
-  .u-font-lobster.u-custom-font {
+  } */
+  /* .u-font-lobster.u-custom-font {
     font-family: Lobster, display !important;
-  }
+  } */
   .u-rectangle {
     border-radius: 0;
   }
@@ -18292,7 +18317,7 @@
   .u-social-url {
     color: inherit;
     font-size: inherit;
-    font-family: inherit;
+    /* font-family: inherit; */
     line-height: inherit;
     letter-spacing: inherit;
     text-transform: inherit;
@@ -18344,7 +18369,7 @@
   .u-language-url {
     color: inherit;
     font-size: inherit;
-    font-family: inherit;
+    /* font-family: inherit; */
     line-height: inherit;
     letter-spacing: inherit;
     text-transform: inherit;
