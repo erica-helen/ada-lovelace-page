@@ -1,4 +1,7 @@
 /*begin-variables font-family*/
+
+
+
 .u-body {
     font-family: 'Open Sans',sans-serif;
   }
@@ -732,6 +735,7 @@
   .u-table-alt-color-2 tr:nth-child(even) {
     color: #ffffff;
     background-color: #f95911;
+
   }
   .u-input.u-color-2,
   .u-field-input.u-color-2,

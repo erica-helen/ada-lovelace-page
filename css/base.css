@@ -4,6 +4,19 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+ .u-new-custom-class {
+  display: inline-block;
+  padding: 10px ; /* 20px para cima/baixo, 10px para esquerda/direita */
+  background-color: orangered;
+  text-decoration: none;
+  border-radius: 50px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+
  .fr-clearfix::after {
     clear: both;
     display: block;
@@ -95,27 +108,7 @@
       white-space: pre-wrap;
       word-wrap: break-word;
       overflow: visible; }
-  /*  .fr-view[dir="rtl"] blockquote {
-      border-left: none;
-      border-right: solid 2px #5E35B1;
-      margin-right: 0;
-      padding-right: 5px;
-      padding-left: 0; }
-      .fr-view[dir="rtl"] blockquote blockquote {
-        border-color: #00BCD4; }
-        .fr-view[dir="rtl"] blockquote blockquote blockquote {
-          border-color: #43A047; }
-    .fr-view blockquote {
-      border-left: solid 2px #5E35B1;
-      margin-left: 0;
-      padding-left: 5px;
-      color: #5E35B1; }
-      .fr-view blockquote blockquote {
-        border-color: #00BCD4;
-        color: #00BCD4; }
-        .fr-view blockquote blockquote blockquote {
-          border-color: #43A047;
-          color: #43A047; } */
+
     .fr-view span.fr-emoticon {
       font-weight: normal;
       font-family: "Apple Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols";
@@ -925,11 +918,8 @@
   .u-effect-zoom.u-effect-active .u-over-slide {
     transform: scale(1, 1);
   }
-  .u-effect-hover-zoom .u-back-slide,
-  .u-effect-hover-zoom .u-background-effect-image {
-    transition: transform 500ms ease;
-    transform: scale(1);
-  }
+
+  
   .u-effect-hover-zoom:hover .u-back-slide,
   .u-effect-hover-zoom:hover .u-background-effect-image,
   .u-effect-hover-zoom.u-effect-active .u-back-slide,
@@ -17596,10 +17586,13 @@
     color: inherit;
   }
   h1 {
-    font-size: 2.25rem;
+    font-size: 2.50rem;
+    
   }
   h2 {
     font-size: 1.5rem;
+    color: blue;
+    
   }
   h3 {
     font-size: 1.25rem;
@@ -17622,7 +17615,8 @@
     text-transform: uppercase;
   }
   .u-align-left {
-    text-align: left;
+    text-align: center;
+    
   }
   @media (min-width: 1400px) {
     .u-align-left-xxl {
